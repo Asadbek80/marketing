@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+h1:hover {
+    color:black ;
+  }
+}
+.retsept-turi{
+    color: white;
+    padding: 2px; 
+    display: inline-block;
+}
+span{
+    color:white;
+    background-color:#e67e22 ;
+}
+.taomlar {
+    color:white ;
+    background-color: #e67e22;
+}
+.ichimliklar {
+    color: white;
+    background-color:  #74b9ff;
+}
+.desertlar {
+    color: white;
+    background-color: #ff7675; ;
+}
+.salatlar {
+  color: white;
+  background-color:#4cd137 ;
+}
+.navbar{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom:30px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.navbar-item {
+  display: inline-block;
+  width: 20%; 
+  list-style-type: none;
+}
+
+.retseptlar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size:0;
+}
+.retsept{
+  width: 30%;  
+  display: inline-block;
+   margin-right: 5%; 
+   font-size: 16px;
+}
+.retsept img {
+    height:220px;
+}
+.navbar-link{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    transition: background 0.5s ease;
+}
+.navbar-link:hover{
+    background: lightgray;
+}
+.retsept.last{
+    margin-right:0;
+}
+.retsept-turi{     
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 5px;
+    transition: all .3s ease;
+         }
+.retsept-turi:hover{
+    opacity:0.5;
+}
+.header{
+    text-align: center
+} 
